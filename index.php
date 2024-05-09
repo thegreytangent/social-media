@@ -20,8 +20,7 @@
             include 'user_list.php';
 
          } elseif($_GET['page'] == 'location') {
-
-              include 'location.php';
+            include 'location.php';
 
          } elseif($_GET['page'] == 'assign-address') {
 
@@ -31,7 +30,11 @@
 
          include 'add_assign_address.php';
 
-      }
+      } elseif($_GET['page'] == 'user_add') {
+
+        include 'user_add.php';
+
+     }
       else {
            echo "no page found or 404";
          }

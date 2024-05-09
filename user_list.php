@@ -1,4 +1,4 @@
-<button class="btn btn-sm btn-success">Add User</button>
+<a href="?page=user_add" class="btn btn-sm btn-success">Add User</a>
           <table class="table">
               <thead>
                 <tr>
