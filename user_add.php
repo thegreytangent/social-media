@@ -1,5 +1,9 @@
 
 
+
+<form action="user_create.php" action="POST">
+
+
 <div class="row">
 
 <div class="col-md-3"> </div>
@@ -31,3 +35,5 @@
 
 </div>
 </div>
+
+</form>
